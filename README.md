@@ -6,7 +6,7 @@ The value of the Dash App lies within the interactive map with the slider that a
 
 How to Run
 Locally:
-- Use this link to open the github site that contains all files https://github.com/ampiercy/CTBA/tree/CTBA_Final_Project
+- Use this link to open the github site that contains all files https://github.com/ampiercy/CTBA_FINAL
 - cd CTBA
 - pip install -r requirements.txt
 - Run finalproject.py file
@@ -21,7 +21,7 @@ Via Render:
 - Build Command: pip install -r requirements.txt
 - Start Command: gunicorn finalproject:app
 - Selected deploy
-- Website was created along with this link: https://ctba-jt0i.onrender.com
+- Website was created along with this link: https://ctba-final.onrender.com
 
 Data Sources: 
 The beef_trading.csv was accessed via the USDA Economic Research Service. The link to the website for the downloadable data is https://www.ers.usda.gov/data-products/state-agricultural-trade-data . I specifically looked for data that was separated by state and year so I could create filters and look at data based on year and have an effective interactive map of the US with data on every state. The spreadsheet initially had data on more than just beef and veal trading, but I deleted all of the other data and kept only the beef and veal information. 
