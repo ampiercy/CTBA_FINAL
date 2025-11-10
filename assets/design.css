@@ -1,0 +1,142 @@
+/* Import IBM Plex Sans */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+/* ===== Global Page Style ===== */
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #fff8f6;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    color: #3a0f0f;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ===== Navbar ===== */
+.custom-navbar {
+    background-color: #8b1e1e;
+    padding: 16px 32px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    font-weight: 600;
+}
+
+.brand-text {
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+/* Nav links horizontal */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease-in-out;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #f2b8b5;
+    color: #f2b8b5 !important;
+}
+
+.nav-links .active {
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff !important;
+}
+
+/* ===== Page Content ===== */
+.page-content {
+    flex: 1;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* ===== Cards ===== */
+.card {
+    background-color: #ffffff;
+    border-left: 6px solid #8b1e1e;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+}
+
+/* ===== Buttons ===== */
+.pill-button {
+    background-color: #8b1e1e;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.pill-button:hover {
+    background-color: #a83232;
+}
+
+/* ===== Slider ===== */
+.custom-slider .rc-slider-handle {
+    border: solid 2px #8b1e1e !important;
+    background-color: #8b1e1e !important;
+}
+
+.custom-slider .rc-slider-dot {
+    border: solid 2px #8b1e1e !important;
+    background-color: #f2b8b5 !important;
+}
+
+.custom-slider .rc-slider-rail {
+    background-color: #f2dede !important;
+}
+
+.custom-slider .rc-slider-track {
+    background-color: #8b1e1e !important;
+}
+
+/* ===== Typography ===== */
+.page-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.page-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #3a0f0f;
+    margin-bottom: 10px;
+}
+
+.page-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8b1e1e;
+}
+
+/* ===== Footer ===== */
+.footer {
+    background-color: #3a0f0f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: auto;
+}
